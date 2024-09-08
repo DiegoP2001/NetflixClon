@@ -1,0 +1,39 @@
+.moviesList {
+
+    margin: 20px 80px;
+    display: flex;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.moviesList > .movieContainer {
+    
+    /*background-color: red;*/
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.moviesList > .movieContainer > p {
+
+    /* background-color: green; */
+    text-align: center;
+
+}
+
+.moviesList > .movieContainer > img {
+
+    /* background-color: blue; */
+    height: 300px;
+
+}

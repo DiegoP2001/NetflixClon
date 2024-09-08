@@ -1,0 +1,46 @@
+:root {
+    --main-color: #e50914;
+    --main-color-darker: #b20710;
+    --bg-color: #141414;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+  
+
+.navbar {
+    color: white;
+    width: 100%;
+    background: linear-gradient(to bottom, var(--bg-color), transparent);
+    padding: 20px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar > ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}

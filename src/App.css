@@ -1,0 +1,12 @@
+:root {
+    --main-color: #e50914;
+    --main-color-darker: #b20710;
+    --bg-color: #141414;
+}
+
+
+body {
+
+    background-color: var(--bg-color);
+
+}

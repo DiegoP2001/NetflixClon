@@ -25,4 +25,4 @@ dist-ssr
 
 
 # Enviroment variables
-env
+.env

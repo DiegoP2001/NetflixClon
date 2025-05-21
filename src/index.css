@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/inter.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: swap;
+}
+
+@theme {
+    --text-xxs: .6rem;
+    --font-sans: 'Inter', system-ui, sans-serif;
+}
